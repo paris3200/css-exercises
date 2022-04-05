@@ -46,3 +46,22 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*  Changes */
+
+li {
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left,
+.header__right {
+  display: flex;
+  gap: 16px;
+}
+
